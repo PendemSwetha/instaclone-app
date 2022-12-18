@@ -12,7 +12,7 @@ const Card = (props) => {
             <div id="card">
                 <div id="dot-cont">
                     <div>
-                        <h3>{props.item.name}</h3>
+                        <h3>{props.item.author}</h3>
                         <p className="opac" >{props.item.location}</p>
                     </div>
                     <div id="dot">
